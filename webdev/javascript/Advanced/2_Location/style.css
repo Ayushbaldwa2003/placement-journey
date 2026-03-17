@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #2d3436, #000000);
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+/* Button Styles */
+#btn {
+    background-color: #e17055;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+#btn:hover {
+    background-color: #d63031;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+}
+
+#btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Weather Info Card */
+body > div {
+    background-color: rgba(45, 52, 54, 0.9);
+    color: #fdcb6e;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+body > div p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+body > div p br {
+    display: none; /* Remove br tags for better styling */
+}
+
+body > div p::before {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #fdcb6e;
+    margin: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) { /* Tablets and smaller */
+    body {
+        padding: 10px;
+    }
+
+    #btn {
+        padding: 12px 24px;
+        font-size: 16px;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    body > div {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    body > div p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) { /* Phones */
+    body {
+        padding: 5px;
+    }
+
+    #btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    body > div {
+        padding: 10px;
+    }
+
+    body > div p {
+        font-size: 12px;
+    }
+}

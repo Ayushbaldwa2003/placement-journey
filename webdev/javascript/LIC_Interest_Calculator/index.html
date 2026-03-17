@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>LIC Interest Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>LIC Policy Interest Calculator</h2>
+
+<label>Total Years of Policy</label>
+<input type="number" id="totalyear">
+
+<label>Premium Paying Years</label>
+<input type="number" id="premiumyear">
+
+<label>Yearly Premium</label>
+<input type="number" id="premium">
+
+<label>LIC Maturity Amount</label>
+<input type="number" id="totalmoney">
+
+<label>Imaginary Interest (%)</label>
+<input type="number" id="imaginary">
+
+
+
+<button onclick="calculate()">Calculate</button>
+
+<div class="result">
+<p id="interest"></p>
+<p id="imaginaryMoney"></p>
+<p id="difference"></p>
+<p id="totalinvest"></p>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
