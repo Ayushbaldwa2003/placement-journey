@@ -1,7 +1,8 @@
-Q.1) leetcode 785. Is Graph Bipartite?
-
+## 🔹 Leetcode 785 Is Graph Bipartite?
+ 
 BFS Solution:-
 
+```Java
 class Solution {
     public boolean isBipartite(int[][] graph) {
         boolean []visited=new boolean[graph.length];
