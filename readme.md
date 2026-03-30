@@ -1,134 +1,95 @@
-# 🚀 Placement Preparation Journey – Ayush
+# 🚀 Web Development Journey – Ayush
 
 ## 👨‍💻 About Me
 
 * 🎓 B.Tech CSE (8th Semester)
-* 💻 Focused on Backend + DSA
-* 🎯 Target: Off-campus placement
+* 💻 Focused on Backend + Web Development
+* 🎯 Goal: Become a job-ready full stack developer
 
 ---
 
 ## 📌 About This Repository
 
-This repository documents my **daily placement preparation journey**.
+This repository documents my **Web Development Learning Journey**.
 
-I am consistently working on:
+Here, I will be consistently uploading:
 
-* 📊 Data Structures & Algorithms (DSA)
-* 🌐 Development (React, Node, Java)
-* 📚 Core CS Subjects (OS, DBMS, CN, OOPs)
+* 📝 Notes of concepts I learn
+* 💻 Code implementations
+* 🚀 Mini projects and practice work
 
 ---
 
 ## 📂 Repository Structure
 
 ```
-placement-journey
+webdev-journey
 │
-├── dsa/                # Topic-wise DSA problems
-├── development/        # React & Backend projects
-├── core-subjects/      # OS, DBMS, CN notes
-├── notes/              # Personal learning notes
-└── daily-log/          # Daily progress tracking
+├── html/              # HTML basics & practice
+├── css/               # Styling, layouts, flexbox, grid
+├── javascript/        # JS concepts & problems
+├── react/             # React concepts & projects
+├── node/              # Backend (Node.js & Express)
+├── mongodb/           # Database learning
+└── notes/             # Personal notes & concepts
 ```
-
----
-
-## 📊 Current Progress
-
-* ✅ DSA Problems Solved: Updating daily
-* 🔄 Current Focus: Graphs + React + Backend
-* 📅 Daily Consistency: Maintained
 
 ---
 
 ## 🧠 What I’m Learning
 
-### 📌 DSA
+### 🌐 Frontend
 
-* Arrays, Strings, Sliding Window
-* Trees, Graphs, BFS/DFS
-* Dynamic Programming (ongoing)
+* HTML (Structure of web pages)
+* CSS (Styling, Flexbox, Grid)
+* JavaScript (Core concepts, DOM, ES6)
 
-### 💻 Development
+### ⚛️ React
 
-* React (Hooks, Projects)
-* Node.js & Express
+* Components & Props
+* Hooks (useState, useEffect)
+* Building projects
+
+### 🛠 Backend
+
+* Node.js
+* Express.js
+* REST APIs
+
+### 🗄 Database
+
 * MongoDB
-
-### 📚 Core Subjects
-
-* Operating System
-* DBMS
-* Computer Networks
-* OOPs (Java)
+* CRUD operations
 
 ---
 
-## 📅 Daily Logs
+## 📚 What You’ll Find Here
 
-I track my daily work inside:
-
-```
-/daily-log/
-```
-
-Each day includes:
-
-* Problems solved
-* Concepts learned
-* Projects built
-* Mistakes & learnings
-
----
-
-## 🔥 Example Daily Entry
-
-```
-Day 5
-
-DSA:
-- Number of Enclaves (BFS)
-- Distinct Islands (DFS)
-
-Development:
-- Built counter app using useState
-
-Git:
-- Learned merge vs rebase
-
-Learning:
-- Understood difference between merge and rebase
-```
-
----
-
-## 🛠 Tools & Tech
-
-* Languages: Java, JavaScript
-* Frontend: React
-* Backend: Node.js, Express
-* Database: MongoDB
-* Tools: Git, GitHub, VS Code
+* ✅ Easy-to-understand notes
+* ✅ Clean and structured code
+* ✅ Practice examples
+* ✅ Real project implementations
 
 ---
 
 ## 🎯 Goal
 
-* Crack a good product-based company
-* Build strong problem-solving skills
-* Become job-ready with real projects
+* Build strong fundamentals in web development
+* Create real-world projects
+* Become industry-ready
 
 ---
 
-## 📈 Progress Mindset
+## 📈 Learning Mindset
+
+> Learn → Build → Repeat
 
 > Consistency > Motivation
-> Small daily improvements → Big results
 
 ---
 
 ## ⭐ Note
 
-This repo reflects my **real daily effort and growth**.
-Feel free to explore my journey 🚀
+This repository reflects my **daily learning and growth in Web Development**.
+
+Feel free to explore 🚀
